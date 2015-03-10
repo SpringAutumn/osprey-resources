@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "http-errors": "^1.2.8",
-    "osprey-method-handler": "0.0.7",
+    "osprey-method-handler": "git://github.com/SpringAutumn/osprey-method-handler.git",
     "osprey-router": "0.0.4"
   }
 }
