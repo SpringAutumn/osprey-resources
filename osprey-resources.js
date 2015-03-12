@@ -30,8 +30,8 @@ function createResources (resources, uri) {
     if (req.resourcePath) {
       return next();
     }
-
-    return next(new createError.NotFound());
+    return next();
+    // return next(new createError.NotFound());
   });
 
   return app;
